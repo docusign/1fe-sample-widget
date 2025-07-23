@@ -1,3 +1,3 @@
-import Root from './app2';
+import Root from "./app2";
 
 export default Root;

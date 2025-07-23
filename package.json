@@ -1,5 +1,5 @@
 {
-  "name": "app2",
+  "name": "@1fe/sample-widget",
   "type": "module",
   "scripts": {
     "dev": "1fe-cli --trace --environment integration dev",
@@ -10,13 +10,17 @@
     "prepack": "yarn build"
   },
   "devDependencies": {
-    "@1fe/cli": "github:docusign/1fe#head=main&workspace=@1fe/cli",
-    "@repo/widget-base-config": "github:docusign/1fe-sample-widget-base-config",
+    "@1fe/cli": "0.0.1",
+    "@1fe/sample-widget-base-config": "0.0.1",
+    "@types/react": "^18.2.62",
+    "@typescript-eslint/eslint-plugin": "^8.35.0",
+    "@typescript-eslint/parser": "^8.35.0",
     "cross-env": "^7.0.3",
     "eslint": "8.57.1",
     "eslint-config-prettier": "^10.1.1",
     "eslint-config-ts-react-important-stuff": "^3.0.0",
     "eslint-plugin-prettier": "^5.2.4",
+    "eslint-plugin-react": "^7.37.5",
     "identity-obj-proxy": "^3.0.0",
     "prettier": "^3.5.3",
     "pretty-quick": "^3.1.1",
@@ -24,7 +28,7 @@
     "typescript": "5.8.2"
   },
   "dependencies": {
-    "@1fe/shell": "github:docusign/1fe#head=main&workspace=@1fe/shell",
+    "@1fe/shell": "0.0.1",
     "@types/systemjs": "^6.15.1",
     "antd": "^5.22.4",
     "react": "^18.3.1",
@@ -32,6 +36,5 @@
     "single-spa": "^5.9.3",
     "single-spa-react": "^6.0.2"
   },
-  "types": "dist/app2.d.ts",
   "packageManager": "yarn@4.9.1"
 }

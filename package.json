@@ -1,5 +1,6 @@
 {
   "name": "@1fe/sample-widget",
+  "version": "1.0.2",
   "type": "module",
   "scripts": {
     "dev": "1fe-cli --trace --environment integration dev",
@@ -36,6 +37,5 @@
     "single-spa": "^5.9.3",
     "single-spa-react": "^6.0.2"
   },
-  "packageManager": "yarn@4.9.1",
-  "version": "0.0.1"
+  "packageManager": "yarn@4.9.1"
 }

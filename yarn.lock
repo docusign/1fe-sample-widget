@@ -104,6 +104,36 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@1fe/sample-widget@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@1fe/sample-widget@workspace:."
+  dependencies:
+    "@1fe/cli": "npm:0.0.1"
+    "@1fe/sample-widget-base-config": "npm:0.0.1"
+    "@1fe/shell": "npm:0.0.1"
+    "@types/react": "npm:^18.2.62"
+    "@types/systemjs": "npm:^6.15.1"
+    "@typescript-eslint/eslint-plugin": "npm:^8.35.0"
+    "@typescript-eslint/parser": "npm:^8.35.0"
+    antd: "npm:^5.22.4"
+    cross-env: "npm:^7.0.3"
+    eslint: "npm:8.57.1"
+    eslint-config-prettier: "npm:^10.1.1"
+    eslint-config-ts-react-important-stuff: "npm:^3.0.0"
+    eslint-plugin-prettier: "npm:^5.2.4"
+    eslint-plugin-react: "npm:^7.37.5"
+    identity-obj-proxy: "npm:^3.0.0"
+    prettier: "npm:^3.5.3"
+    pretty-quick: "npm:^3.1.1"
+    react: "npm:^18.3.1"
+    react-dom: "npm:^18.3.1"
+    single-spa: "npm:^5.9.3"
+    single-spa-react: "npm:^6.0.2"
+    ts-config-single-spa: "npm:^3.0.0"
+    typescript: "npm:5.8.2"
+  languageName: unknown
+  linkType: soft
+
 "@1fe/shell@npm:0.0.1":
   version: 0.0.1
   resolution: "@1fe/shell@npm:0.0.1"
@@ -5729,36 +5759,6 @@ __metadata:
   checksum: 10c0/57b06ae984bc32a0d22592c87384cd88fe4511b1dd7581497831c56d41939c8a001b28e7b853e1450f2bf61992dfcaa8ae2d0d161a0a90c4fb631ef07098fbac
   languageName: node
   linkType: hard
-
-"app2@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "app2@workspace:."
-  dependencies:
-    "@1fe/cli": "npm:0.0.1"
-    "@1fe/sample-widget-base-config": "npm:0.0.1"
-    "@1fe/shell": "npm:0.0.1"
-    "@types/react": "npm:^18.2.62"
-    "@types/systemjs": "npm:^6.15.1"
-    "@typescript-eslint/eslint-plugin": "npm:^8.35.0"
-    "@typescript-eslint/parser": "npm:^8.35.0"
-    antd: "npm:^5.22.4"
-    cross-env: "npm:^7.0.3"
-    eslint: "npm:8.57.1"
-    eslint-config-prettier: "npm:^10.1.1"
-    eslint-config-ts-react-important-stuff: "npm:^3.0.0"
-    eslint-plugin-prettier: "npm:^5.2.4"
-    eslint-plugin-react: "npm:^7.37.5"
-    identity-obj-proxy: "npm:^3.0.0"
-    prettier: "npm:^3.5.3"
-    pretty-quick: "npm:^3.1.1"
-    react: "npm:^18.3.1"
-    react-dom: "npm:^18.3.1"
-    single-spa: "npm:^5.9.3"
-    single-spa-react: "npm:^6.0.2"
-    ts-config-single-spa: "npm:^3.0.0"
-    typescript: "npm:5.8.2"
-  languageName: unknown
-  linkType: soft
 
 "arg@npm:^4.1.0":
   version: 4.1.3

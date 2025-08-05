@@ -5,6 +5,8 @@ import Root from "./root.component";
 describe("Root component", () => {
   it("should be in the document", () => {
     const { getByText } = render(<Root name="Testapp" />);
-    expect(getByText(/My amazing component from app2 is mounted!/i)).toBeInTheDocument();
+    expect(
+      getByText(/My amazing component from app2 is mounted!/i),
+    ).toBeInTheDocument();
   });
 });
